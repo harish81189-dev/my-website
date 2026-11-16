@@ -1,0 +1,6 @@
+- DOM queries use the local `$` / `$$` helpers rather than calling `document.querySelector` / `querySelectorAll` directly.
+- Interactive state is communicated by toggling BEM-style modifier classes on elements (e.g. `.is-scrolled`, `.is-open`, `.is-active`, `.is-visible`, `.is-invalid`) while keeping layout in separate base classes.
+- Animations triggered by viewport entry are implemented with dedicated `IntersectionObserver` instances per feature group, each unobserving its targets after first activation.
+- Data driving animations lives in HTML `data-*` attributes (`data-width`, `data-count`, `data-suffix`) read by JS at runtime instead of being hard-coded in the script.
+- Accessibility is expressed inline via ARIA attributes (`aria-expanded`, `aria-label`, `aria-current`, `aria-invalid`, `role="progressbar"`, `aria-live="polite"`) paired with `aria-hidden="true"` on decorative SVGs.
+- User preferences are respected through `window.matchMedia` checks for `prefers-reduced-motion` and `hover: hover and pointer: fine` before enabling motion-heavy features.

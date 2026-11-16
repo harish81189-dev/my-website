@@ -1,0 +1,1 @@
+Plain HTML5 + CSS3 (CSS custom properties, Grid, Flexbox, `clamp()`, `backdrop-filter`, `@keyframes`) and vanilla ES6+ JavaScript (IIFE, `querySelectorAll`, `IntersectionObserver`, `requestAnimationFrame`, `matchMedia`). External assets limited to Google Fonts (Inter, Sora).

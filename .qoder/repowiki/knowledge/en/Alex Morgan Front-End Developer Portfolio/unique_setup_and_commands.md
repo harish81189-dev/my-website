@@ -1,0 +1,1 @@
+No build toolchain — open `index.html` directly in a browser or serve it from any static file server (e.g. `python -m http.server`, `npx serve`, VS Code Live Server). No npm packages or environment variables required.

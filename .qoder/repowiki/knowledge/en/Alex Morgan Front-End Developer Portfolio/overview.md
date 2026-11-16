@@ -1,0 +1,1 @@
+A single-page, vanilla HTML/CSS/JS portfolio site for a front-end developer, featuring a sticky header, hero with typing animation, about/skills/projects/contact sections, and a client-side contact form.
